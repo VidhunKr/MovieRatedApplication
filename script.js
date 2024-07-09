@@ -13,7 +13,7 @@ if(data.Response == "True")displayMovieList(data.Search)
  }
  function findMovies(){
     let searchTerm=(movieSeachBox.value).trim()
-    console.log(searchTerm);
+   // console.log(searchTerm);
 if(searchTerm.length>0){
    searchList.classList.remove('hide-search-list')
    loadMovies(searchTerm)
